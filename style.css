@@ -1,3 +1,5 @@
+/* reset and variables */
+
 * {
     margin: 0;
     padding: 0;
@@ -39,6 +41,8 @@
     display: flex;
   
 }
+/* Hero section*/
+
 .hero {
     height: 70vh;
     min-height: 600px;
@@ -96,7 +100,7 @@
 .arrow {
     margin-top: 1em;
 }
-
+/* Section one, section two and section 3*/
 .section1 img {
     width: 100%;
     height: 100%;
@@ -169,6 +173,7 @@ h1 {
 .graphicdesignheading, .photographyheading {
     margin-bottom: .75em;
 }
+/* Testimonials */
 .section4 {
     text-align: center;
 }
@@ -198,11 +203,14 @@ h1 {
 .clientoccupation {
     font-size: 14px;
 }
+
+/* Photo grid*/
 .section5 {
     display: grid;
     grid-gap: 0;
     grid-template-columns: repeat(4, 1fr);
 }
+/*Footer*/
 .footer {
     background-color:#68B1A2;
     text-align: center;
