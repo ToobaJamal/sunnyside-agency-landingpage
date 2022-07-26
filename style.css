@@ -41,6 +41,8 @@
     display: flex;
   
 }
+h2 {
+    font-size: 18px;
 /* Hero section*/ 
 
 .hero {
